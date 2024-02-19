@@ -7,7 +7,7 @@ print("Current Time: " + datetime.now().strftime("%H:%M"))
 
 
 #Opens URLS.txt
-URLS = open('C:\\Users\\garciamarcu\\Documents\\Haxor\\URLS.txt', 'r')
+URLS = open('C:\\Users\\garciamarcu\\Documents\\Code\\URLS.txt', 'r')
 
 #Parses URLS.txt and runs yt-dlp each loop with the current line as an argument
 for line in URLS:
@@ -23,7 +23,9 @@ for line in URLS:
 #Run this once or twice a week on a cloud server using cron to automate
 
 #Have means of writing URLS to URLS.txt so the server can know what to download
+		#Could log into AWS portal and manually edit URLS.txt
+		#Want another way
 
-#push downloads to local drive so I can backup 
+#push downloads my server at home
 		
-#test commit
+#transfer data from my local server to my PC, then from PC to HDD
